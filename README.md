@@ -1,3 +1,5 @@
+console logs( impl address, proxyaddress) doesnt work in goerli, use bsctest, mumbai etc
+
 refer these
 
 https://github.com/deep-quality-dev/upgrade-contract-on-multisig
