@@ -2,6 +2,8 @@ console logs( impl address, proxyaddress) doesnt work in goerli, use bsctest, mu
 
 refer these
 
+https://www.youtube.com/playlist?list=PLljfcQpUgORqzfuwXgeRMcSpyu4fogyLb
+
 https://github.com/deep-quality-dev/upgrade-contract-on-multisig
 
 https://medium.com/coinmonks/beginners-guide-to-transparent-proxy-pattern-f40d6085bf3c
