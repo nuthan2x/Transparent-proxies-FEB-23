@@ -3,7 +3,9 @@
 pragma solidity 0.8.17;
  
 contract BoxV2 {
-    uint256 private value;
+    uint256 public value;
+    uint256 public value1;
+    uint256 public value2;
  
     // Emitted when the stored value changes
     event ValueChanged(uint256 newValue);

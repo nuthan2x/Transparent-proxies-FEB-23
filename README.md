@@ -1,6 +1,15 @@
-# Sample Hardhat Project
+refer these
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+https://github.com/deep-quality-dev/upgrade-contract-on-multisig
+
+https://medium.com/coinmonks/beginners-guide-to-transparent-proxy-pattern-f40d6085bf3c
+
+https://forum.openzeppelin.com/t/openzeppelin-upgrades-step-by-step-tutorial-for-hardhat/3580
+
+https://www.youtube.com/watch?v=bdXJmWajZRY&list=PLljfcQpUgORojQmO98pAt6Xx9UHSDTVr1&index=6
+
+https://blog.logrocket.com/using-uups-proxy-pattern-upgrade-smart-contracts/#comparing-proxy-patterns
+
 
 Try running some of the following tasks:
 

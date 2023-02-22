@@ -9,6 +9,51 @@
       "address": "0xB782ae29922dB6c390494c59ba9fE070aff03a5A",
       "txHash": "0x1e1939a8ccb05892664ef0626ff76bfbcc8d39f8b2a61bc98e3d980ce8dcbd4c",
       "kind": "transparent"
+    },
+    {
+      "address": "0x7844Eb60C423e6D5DAACEA84b02970EC71907d60",
+      "txHash": "0x42736e3b0405047b99167e3a514d5e837e6e0f05bb8436244e65063feb9a8fb3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x75479Da422b2b6A099BFEddA20929D7dEa119b0e",
+      "txHash": "0x99dbf537fe7583f999078ab5b7f8198defad745dec30b4fcf858c75f266a55bb",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xaAE69BF40612992ea6064bA3202702f7Ce71CAFa",
+      "txHash": "0xf0a67e5fcfecd17d8a9c0fac69cdfc1bc7db1f89bd4b3c7651eb6c8756a13010",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5ee4fDc1a3d35e4F90D32402426da81EF6Eb0e1C",
+      "txHash": "0xc0e3077aabbc1c1d8a58e79f2b49d41a86fcf5b7a1051f27cd03593611f0c351",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA74EEf3771c112B0c7F726a9Ee7b8f4492A70aAf",
+      "txHash": "0x7ad768ea3bd56bfe92b5ca3ee69ef8e0a7cebd03a20baaf9fdc3d99f10832b9c",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf26aA8bd3dcB6b4d969c5fb6d0281455FE75A1B4",
+      "txHash": "0xe0ebdc964dfcf64861db35f34208f94bf086cb65bc1f229b0c1230961f42d289",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xE12CCfaa983202495fB372B65464646382c305eb",
+      "txHash": "0x226eb80468e7cdec36aba0e1dbb1cf91fac2c35b4be70c097328980a7e604712",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5C93f8a34a095E9866EDbd5bdE60b40c9dff6649",
+      "txHash": "0x3ce58197d016a4b6ab368a1d02c3baf57515e416900b119c90e381bace9e36c1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x308d3fCFeEe6F704Cc647c14153560e12d9F975F",
+      "txHash": "0x2d1137c26010470f201b6a50ad0fb1d67d13f34f38c64d93c95acab73b8bcc9a",
+      "kind": "transparent"
     }
   ],
   "impls": {
@@ -71,6 +116,76 @@
             "type": "t_uint256",
             "contract": "BoxV3",
             "src": "contracts\\BoxV3.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "2e8b37d5b1e697c2ed942c9de03547ee4f0f39b3e1b2b815d9ef3620679cf9b7": {
+      "address": "0xA429d33092C711605310A7222E12D7f6B7e6dB6b",
+      "txHash": "0xb299ab2cb84fa668d8a4c98b83b4a0e16d5dcedd98614bb79239a5d47055bd02",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:6"
+          },
+          {
+            "label": "value1",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "28cc45e4e9f55f7116bf3d795ccd18aa3ed6eb5cda717bebcd0394e22f503d66": {
+      "address": "0x0AA71fFCDa6DF1F3F899381943E1d26cB4F5Fbd8",
+      "txHash": "0x12993ec765d3c119500986eab7f1472acc2b54c8e5d84cd4cc66431e86dc52ac",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:6"
+          },
+          {
+            "label": "value1",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:7"
+          },
+          {
+            "label": "value2",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:8"
           }
         ],
         "types": {

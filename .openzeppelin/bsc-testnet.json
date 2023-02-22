@@ -1,0 +1,86 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xf9cDf3368b7AA684a86BA710901E01c000eA382C",
+    "txHash": "0x242e3d4432a28dc4594cd21ef0cfe4968c274d916f7159128c7191084afb1398"
+  },
+  "proxies": [
+    {
+      "address": "0x6982fa83f040C99dF77875D352B879fc8371540e",
+      "txHash": "0x338feaa1b15ddd45a768b15cad4bee19514cf230a803793e632e645267f8d957",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "2e8b37d5b1e697c2ed942c9de03547ee4f0f39b3e1b2b815d9ef3620679cf9b7": {
+      "address": "0xa87C394555d6a2A88A7e61103e8452005B82408a",
+      "txHash": "0x957246bc13be044cd647c9ebbdf60306e3751aac068a999842708051ae8025f7",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:6"
+          },
+          {
+            "label": "value1",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts\\Box.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "28cc45e4e9f55f7116bf3d795ccd18aa3ed6eb5cda717bebcd0394e22f503d66": {
+      "address": "0x769823453Fe84eE86e8A78Cd59e071931B62b48C",
+      "txHash": "0xb3cbb404ccf0af48cfc73e6eb7e2ce1051a0caa2750e9314f919e7b9511ced47",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:6"
+          },
+          {
+            "label": "value1",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:7"
+          },
+          {
+            "label": "value2",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "BoxV2",
+            "src": "contracts\\BoxV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
