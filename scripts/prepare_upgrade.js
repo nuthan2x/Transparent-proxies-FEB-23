@@ -20,6 +20,10 @@ async function main() {
     const boxV2 = await upgrades.upgradeProxy(proxyAddress, BoxV2)
     console. log(boxV2.address," BoxV2 address(should be the same)")
 
+    setTimeout(() => {
+      
+    }, 10000);
+
     console. log(await upgrades.erc1967.getImplementationAddress(proxyAddress),"getImplementationAddress")
 
     console. log(await upgrades.erc1967.getAdminAddress(proxyAddress), "getAdminAddress")
